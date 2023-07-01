@@ -254,7 +254,7 @@ patch_xIPL() {
 
 	if [[ "$LATEST_XIPL_MD5" != "$xIPL_md5" ]]; then
 		echo "  [!!] xIPL not up-to-date, downloading new version."
-		local resource="https://raw.githubusercontent.com/Ohkthx/xIPL/main/$xIPL_filename"
+		local resource="https://raw.githubusercontent.com/Yukimimiya/xIPL/main/$xIPL_filename"
 		download_file "$resource" "$xIPL_filename"
 	fi
 

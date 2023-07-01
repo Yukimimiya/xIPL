@@ -19,7 +19,7 @@ SHARD_NAME="shadowage_reborn"
 
 # Required file that does all of the IPL tasks.
 EXTRAS_FILE="xIPL_extras"
-REMOTE_EXTRAS="https://raw.githubusercontent.com/Ohkthx/xIPL/main/$EXTRAS_FILE"
+REMOTE_EXTRAS="https://raw.githubusercontent.com/Yukimimiya/xIPL/main/$EXTRAS_FILE"
 
 function update_extras {
 	echo "[--] Updating xIPL Extras."
