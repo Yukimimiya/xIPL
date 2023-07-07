@@ -4,7 +4,7 @@
 # UO_SHARD_ROOT - Path to access the Manifest and Hashes file.
 # UO_SHARD_PORT - Port to access the patch.
 UO_SHARD_NAME="Quest and Legends"
-UO_SHARD_ROOT="51.81.49.21"
+UO_SHARD_ROOT="http://51.81.49.21/"
 UO_SHARD_PORT="8080"
 
 # UO_SHARD_CLIENT       - Executable / Client to be launched.
