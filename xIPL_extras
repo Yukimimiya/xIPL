@@ -267,7 +267,7 @@ patch_xIPL() {
 
 patch_shard_info() {
 	echo "[--] Pulling Shard '$1' configuration."
-	local resource="https://raw.githubusercontent.com/Ohkthx/xIPL/main/shards/$1"
+	local resource="https://raw.githubusercontent.com/Yukimimiya/xIPL/main/shards/$1"
 	download_file "$resource" "$SHARD_INFO_FILE"
 }
 
@@ -536,7 +536,7 @@ usage() {
 	echo "--no-refresh     Skips updating the shards configuration file."
 	echo "--no-winetricks  Skips the Winetricks validation."
 	echo -e "\nReport issues to:"
-	echo -e "  https://github.com/Ohkthx/xIPL"
+	echo -e "  https://github.com/Yukimimi/xIPL"
 }
 
 start_ipl() {
