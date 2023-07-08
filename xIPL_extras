@@ -536,7 +536,7 @@ usage() {
 	echo "--no-refresh     Skips updating the shards configuration file."
 	echo "--no-winetricks  Skips the Winetricks validation."
 	echo -e "\nReport issues to:"
-	echo -e "  https://github.com/Ohkthx/xIPL"
+	echo -e "  https://github.com/Yukimimi/xIPL"
 }
 
 start_ipl() {
