@@ -11,7 +11,7 @@
 # Name of the shard to patch for, check out:
 #   https://github.com/Ohkthx/xIPL/tree/main/shards
 # For all valid shard names.
-SHARD_NAME="quest_and_legends"
+SHARD_NAME="dream_world"
 
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # You probably do not need to edit this file beyond this point.
