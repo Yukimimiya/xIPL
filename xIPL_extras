@@ -681,12 +681,17 @@ start_ipl() {
 	# Step 1: INSTALL, Ensure all files and packages are installed.
 	install_wine
 	if [[ "$skip_winetricks" == "false" ]]; then install_winetricks; fi
+	echo "POINT1" # DEBUG
 	install_uopatcher "$shard_name"
+	echo "POINT2" # DEBUG
 
 	# Step 2: PATCH, Validate and modify settings/configurations and files.
 	patch_wine
+	echo "POINT3" # DEBUG
 	patch_uopatcher "$shard_name"
+	echo "POINT4" # DEBUG
 	if [[ "$skip_patch" == "false" ]]; then patch_client; fi
+	echo "POINT5" # DEBUG
 
 	# Step 3: LAUNCH, start the client.
 	if [[ "$start_launcher" == "false" ]]; then
